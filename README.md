@@ -21,10 +21,12 @@ I should probably remove everything but qlmanage but I'm leaving it in for now b
 Install for all users
 
 	curl -o /usr/local/bin/svg2icns https://raw.githubusercontent.com/magnusviri/svg2icns/main/svg2icns
+	chmod 755 /usr/local/bin/svg2icns
 
 Install in the current directory
 
 	curl -O https://raw.githubusercontent.com/magnusviri/svg2icns/main/svg2icns
+	chmod 755 svg2icns
 
 ## The Opposite
 
