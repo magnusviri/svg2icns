@@ -2,14 +2,9 @@
 
 set -e
 
-# This script requires iconutil and sips
-# It requires one of these: qlmanage (included with macOS), svg2png, inkscape, or ImageMagik
-# I should probably remove everything but qlmanage but I'm leaving it in for now
+# https://github.com/magnusviri/svg2icns
 
-# Put this in your ~/.zshrc if you want the opposite:
-#     alias icns2png='sips -s format png \!:1 --out \!:2'
-
-# This script combines all 3 of these scripts
+# Credits: This script combines all 3 of these scripts
 #
 # http://www.spaziocurvo.com/2015/03/svg-to-icns-script-for-mac-os-x/
 # https://gist.github.com/zlbruce/883605a635df8d5964bab11ed75e46ad
