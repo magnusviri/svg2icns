@@ -6,7 +6,7 @@ macOS tool to convert svg to icns files
 
 This script should run without installing anything extra if you're on a recent macOS.
 
-It requires iconutil and sips, which come with macOS. It requires one of these: qlmanage (included with macOS), svg2png, inkscape, or ImageMagik. If for some reason you don't have qlmanage, you can install one of the others with homebrew (see http://brew.sh to install that)
+It requires iconutil and sips, which come with macOS. It requires one of these: qlmanage (included with macOS), svg2png, inkscape, or ImageMagik. If for some reason you don't have qlmanage, you can install one of the others with homebrew (see https://brew.sh to install that)
 
 	brew install svg2png # only install if you don't have qlmanage, you probably do
 	brew install inkscape # only install if you don't have qlmanage, you probably do
@@ -34,8 +34,10 @@ Put this in your ~/.zshrc if you want the opposite:
 
 ## Credits
 
-This script combines all 3 of these scripts
+This script combines all 3 of these scripts:
 
 http://www.spaziocurvo.com/2015/03/svg-to-icns-script-for-mac-os-x/
 https://gist.github.com/zlbruce/883605a635df8d5964bab11ed75e46ad
 https://gist.github.com/Canorus/1bc13e4b9ced1df79d396141de6178e4
+
+I added the inkscape line and reorganized everything.
